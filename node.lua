@@ -20,7 +20,6 @@ function node.render()
     gl.clear(0, 0, 0, 1)
     local state, w, h = video:state()
     if state == "loaded" then
-        local x1, y1, x2, y2 = util.scale_into(NATIVE_WIDTH, NATIVE_HEIGHT, w, h)
-        video:place(x1, y1, x2, y2):layer(2)
+        video:place(0, 0, NATIVE_WIDTH, NATIVE_HEIGHT):layer(2)
     end
 end
