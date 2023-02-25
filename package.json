@@ -1,7 +1,7 @@
 {
-    "name": "Video Looper",
+    "name": "Video Looper (no-aspect)",
     "author": "Florian Wesch <fw@info-beamer.com>",
-    "desc": "Loop single video forever",
-    "repository": "https://github.com/info-beamer/package-video-looper",
+    "desc": "Loop a single video forever without forcing 'correct' aspect ratio of video",
+    "repository": "https://github.com/spreadspace/info-beamer-video-looper-noaspect",
     "platforms": ["pi/epoch-1", "pi/epoch-2"]
 }
